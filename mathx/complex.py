@@ -18,7 +18,10 @@ class Complex(object):
         self.imaginary = imaginary
 
     def __str__(self):
-        return '({}, {}i)'.format(self.real, self.imaginary)
+
+        if self.real == '' or self.imaginary == '':
+            return 'Input a real and imaginary value'
+            return '({}, {}i)'.format(self.real, self.imaginary)
 
 
 
@@ -28,12 +31,6 @@ class Complex(object):
         if isinstance(other, (float,int)):
 
             other = Complex(other)
-
-        # elif not (hasattr(other, 'real') and
-
-        #           hasattr(other, 'imag')):
-
-        #     raise TypeError('other must have real and imag attr.')
 
         real = self.real + other.real
         imaginary = self.imaginary + other.imaginary
@@ -65,10 +62,3 @@ class Complex(object):
         imaginary = z.imaginary / j
 
         return Complex(real, imaginary)
-
-C = map(float, raw_input().split())
-D = map(float, raw_input().split())
-j = ComplexNo(*C)
-z = ComplexNo(*D)
-final = [j+z, j-z, j*z, j/z]
-print '\n'.join(map(str, final))
