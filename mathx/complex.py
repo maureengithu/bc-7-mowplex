@@ -1,5 +1,3 @@
-#import math 
-
 class Complex(object):
     '''
     A complex numbers class that will
@@ -17,15 +15,14 @@ class Complex(object):
         self.real = real
         self.imaginary = imaginary
 
-        # try:
-        #     y = int(raw_input('Complex number>> '))
-        # except ValueError:
-        #     return "That wasn't a complex number!"
+    def __repr__(self):
+        return '<complex: ({}, {}i)>'.format(self.real, self.imaginary)
+
 
     def __str__(self):
 
-        if self.real == '' or self.imaginary == '':
-            return 'Input a real and imaginary value'
+        # if self.real == '' or self.imaginary == '':
+        #     return 'Input a real and imaginary value'
         return '({}, {}i)'.format(self.real, self.imaginary)
 
     def __add__(self, other):
