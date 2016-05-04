@@ -1,4 +1,4 @@
-import math 
+#import math 
 
 class Complex(object):
     '''
@@ -18,12 +18,22 @@ class Complex(object):
         self.imaginary = imaginary
 
     def __str__(self):
-        return '({} + {}i)'.format(self.real, self.imaginary)
+        return '({}, {}i)'.format(self.real, self.imaginary)
 
 
 
     def __add__(self, other):
         #adds two or more complex numbers
+
+        if isinstance(other, (float,int)):
+
+            other = Complex(other)
+
+        # elif not (hasattr(other, 'real') and
+
+        #           hasattr(other, 'imag')):
+
+        #     raise TypeError('other must have real and imag attr.')
 
         real = self.real + other.real
         imaginary = self.imaginary + other.imaginary
@@ -57,6 +67,9 @@ class Complex(object):
         return Complex(real, imaginary)
 
 print Complex(3, 4)
-u = Complex(2, 6)
-p = Complex(5, 3)
+u = Complex(2, 1)
+p = Complex(5, 6)
 print u + p
+print u - p
+print u * p
+print u / p
