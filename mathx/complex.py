@@ -66,10 +66,9 @@ class Complex(object):
 
         return Complex(real, imaginary)
 
-print Complex(3, 4)
-u = Complex(2, 1)
-p = Complex(5, 6)
-print u + p
-print u - p
-print u * p
-print u / p
+C = map(float, raw_input().split())
+D = map(float, raw_input().split())
+j = ComplexNo(*C)
+z = ComplexNo(*D)
+final = [j+z, j-z, j*z, j/z]
+print '\n'.join(map(str, final))
