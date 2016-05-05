@@ -45,8 +45,10 @@ Here are the steps required to divide complex numbers:
 **Back End Dependencies**
   ----------------------
 This console application's functionality depends on two Python packages including;
-*1. mathx: A complex numbers library that will perform operations of addition, subtraction, multiplication and division on complex numbers.
-2. mowplex: A command line program that allows users to  minimize complexity by using short commands to perfom operations on complex numbers
+
+* 1. mathx: A complex numbers library that will perform operations of addition, subtraction, multiplication and division on complex numbers.
+
+* 2. mowplex: A command line program that allows users to  minimize complexity by using short commands to perfom operations on complex numbers
 
 **Front End Dependencies**
   -----------------------
