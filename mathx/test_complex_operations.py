@@ -1,5 +1,5 @@
 '''
-Test cases for complex numbers
+Test suite for complex numbers
 '''
 import unittest
 from complex import Complex
@@ -20,6 +20,9 @@ class ComplexOperationsTestCase(unittest.TestCase):
         #Test difference of two or more complex numbers
             c = a - b
             self.assertEqual(str(c), ('(-1, 1i)'))
+            c = a - d
+            self.assertEqual(str(c), ('(-2, -2i)'))
+
 
         def test_multiplication_of_complex_numbers(self):
         #Test multiplication of two or more complex numbers
