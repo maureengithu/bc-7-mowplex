@@ -60,15 +60,15 @@ termcolor 1.1.0- ANSII Color formatting for output in terminal
 **Installation and setup**
   -----------------------
 
-*Navigate to a directory of choice on terminal.
+* Navigate to a directory of choice on terminal.
 
-*Clone this repository on that directory - https://github.com/maureengithu/bc-7-mowplex.git
+* Clone this repository on that directory - https://github.com/maureengithu/bc-7-mowplex.git
 
-*Navigate to the repo's folder on your terminal
+* Navigate to the repo's folder on your terminal
 
-*cd /bc-7-mowplex
+* cd /bc-7-mowplex
 
-*Import the packages and run the app.
+* Import the packages and run the app.
 
 **Tests**
   -----
