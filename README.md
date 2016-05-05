@@ -15,15 +15,15 @@ A complex number is a number that can be expressed in the form a + bi, where a a
 **Breakdown**:
   ----------
 
-1. *Addition*
+*Addition*
 
 It's all just combining like terms. First combine the real units, then the imaginary units.
 
-2. *Subtraction*
+*Subtraction*
 
 Subtraction is basically the same, but it does require you to be careful with your negative signs.
 
-3. *Multiplication*
+*Multiplication*
 
 Here are the steps required for Multiplying Complex Numbers:
 
@@ -31,7 +31,7 @@ Here are the steps required for Multiplying Complex Numbers:
 * Step 2 : Simplify the powers of i, specifically remember that i2 = –1.
 * Step 3 : Combine like terms, that is, combine real numbers with real numbers and imaginary numbers with imaginary numbers.
 
-4. *Division*
+*Division*
 
 Here are the steps required to divide complex numbers:
 
@@ -45,8 +45,8 @@ Here are the steps required to divide complex numbers:
 **Back End Dependencies**
   ----------------------
 This console application's functionality depends on two Python packages including;
-mathx- A complex numbers library that will perform operations of addition, subtraction, multiplication and division on complex numbers.
-mowplex- A command line program that allows users to  minimize complexity by using short commands to perfom operations on complex numbers
+*mathx- A complex numbers library that will perform operations of addition, subtraction, multiplication and division on complex numbers.
+*mowplex- A command line program that allows users to  minimize complexity by using short commands to perfom operations on complex numbers
 
 **Front End Dependencies**
   -----------------------
@@ -56,15 +56,15 @@ termcolor 1.1.0- ANSII Color formatting for output in terminal
 **Installation and setup**
   -----------------------
 
-Navigate to a directory of choice on terminal.
+*Navigate to a directory of choice on terminal.
 
-Clone this repository on that directory - https://github.com/maureengithu/bc-7-mowplex.git
+*Clone this repository on that directory - https://github.com/maureengithu/bc-7-mowplex.git
 
-Navigate to the repo's folder on your terminal
+*Navigate to the repo's folder on your terminal
 
-cd /bc-7-mowplex
+*cd /bc-7-mowplex
 
-Import the packages and run the app.
+*Import the packages and run the app.
 
 **Tests**
   -----
