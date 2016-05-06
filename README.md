@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/maureengithu/bc-7-mowplex.svg?branch=master)](https://travis-ci.org/maureengithu/bc-7-mowplex)
 
-  # BC-7-MOWPLEX
+ **BC-7-MOWPLEX**
+ -----------------
 
 **Prelude**:
 
