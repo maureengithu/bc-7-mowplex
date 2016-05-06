@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/maureengithu/bc-7-mowplex.svg?branch=master)](https://travis-ci.org/maureengithu/bc-7-mowplex)
 
-  **BC-7-MOWPLEX**
-  -----------------
+  # BC-7-MOWPLEX
 
 **Prelude**:
 
@@ -12,7 +11,7 @@ You can't take the square root of a negative number.
 You can take the square root of a negative number, but it involves using a new number to do it. This new number is commonly called "i", standing for "imaginary".
 
 *Definition of complex number*:
-A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit, that satisfies the equation i**2 = −1.
+A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit, that satisfies the equation i<sup>2</sup> = −1.
 
 **Breakdown**:
   ----------
@@ -54,26 +53,31 @@ This console application's functionality depends on two Python packages includin
 
 **Installation and setup**
   -----------------------
-
-* Navigate to a directory of choice on terminal.
-
-* Clone this repository on that directory - https://github.com/maureengithu/bc-7-mowplex.git
-
-* Navigate to the repo's folder on your terminal
-
-* cd /bc-7-mowplex
-
-* Import the packages and run the app.
+```shell
+$ git clone https://github.com/maureengithu/bc-7-mowplex.git
+$ cd bc-7-mowplex
+$ python
+>>> import complex
+...
+```
 
 **Tests**
   -----
 
 The tests have been written using python's TestCase class.
-The program is intergrated to Travis CI which automatically detects when a commit has been made and pushed to the GitHub repository, and each time this happens, it will try to build the project and run tests.
+The program is intergrated to Travis CI which automatically detects when a commit has been made and pushed to the GitHub repository, and each time this happens, it will try to build the project and run tests. For intergration steps visit https://travis-ci.com/getting_started
+
+Ensure that you have installed pip on your cmd for travis to function as intended.
+
+```shell
+$ pip install nose
+$ nosetests
+```
+
 If the tests are successful, they will complete without failures or errors.
 
-Example
-```
+Output Example
+```shell
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.015s

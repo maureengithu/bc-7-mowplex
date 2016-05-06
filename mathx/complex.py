@@ -12,7 +12,7 @@ class Complex(object):
 
     def __str__(self):
 
-        return '({}, {}i)'.format(self.real, self.imaginary)
+        return ('({0:.2f}, {0:.2f}i)'.format(round (self.real, self.imaginary, 2)))
 
     def __add__(self, other):
 
