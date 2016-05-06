@@ -6,7 +6,7 @@
 **Prelude**:
 
 *Assumption*: 
-You can't take the square root of a negative number.
+ou can't take the square root of a negative number.
 
 *Fact*:
 You can take the square root of a negative number, but it involves using a new number to do it. This new number is commonly called "i", standing for "imaginary".
