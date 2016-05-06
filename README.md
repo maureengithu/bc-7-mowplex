@@ -52,11 +52,6 @@ This console application's functionality depends on two Python packages includin
 
 * mowplex: A command line program that allows users to  minimize complexity by using short commands to perfom operations on complex numbers
 
-**Front End Dependencies**
-  -----------------------
-
-termcolor 1.1.0- ANSII Color formatting for output in terminal
-
 **Installation and setup**
   -----------------------
 
